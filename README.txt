@@ -1,11 +1,15 @@
-1. ÄÄÆÄÀÏ
-Eclipse ¿¡¼­ ÄÄÆÄÀÏ
+Socketê³¼ SSLì„ í†µí•´ ì–‘ë°©í–¥ í†µì‹ ì„ êµ¬í˜„í•œ ì˜¨ë¼ì¸ í• ë¦¬ê°ˆë¦¬ ê²Œì„
+
+
+
+1. ì»´íŒŒì¼
+Eclipse ì—ì„œ ì»´íŒŒì¼
 	or
 javac HalyImpl.java
 javac HalyServer.java
 javac HalyClient.java
 
-2. µ¿ÀÛ °úÁ¤
+2. ë™ì‘ ê³¼ì •
 start  rmiregistry
 java -Djavax.net.debug=SSL,handshake HalyServer 127.0.0.1 8888 5
 java -Djavax.net.debug=SSL,handshake HalyClient 127.0.0.1 8888 5
